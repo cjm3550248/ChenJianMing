@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyDouBanProject - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/MyDouBanProject.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Administrator\桌面\陈建明\MyDouBanProject\MyDouBanProject.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP428.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MyDouBanProject.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\陈建明\MyDouBanProject\common.cpp"
+"C:\Documents and Settings\Administrator\桌面\陈建明\MyDouBanProject\MyDouBan.cpp"
+"C:\Documents and Settings\Administrator\桌面\陈建明\MyDouBanProject\MyDouBanProject.cpp"
+"C:\Documents and Settings\Administrator\桌面\陈建明\MyDouBanProject\MyDouBanProjectDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\陈建明\MyDouBanProject\StringUtil.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP428.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP429.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MyDouBanProject.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\桌面\陈建明\MyDouBanProject\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP429.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP42A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MyDouBanProject.pdb" /machine:I386 /out:"Release/MyDouBanProject.exe" 
+".\Release\common.obj"
+".\Release\MyDouBan.obj"
+".\Release\MyDouBanProject.obj"
+".\Release\MyDouBanProjectDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\StringUtil.obj"
+".\Release\MyDouBanProject.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP42A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+common.cpp
+MyDouBan.cpp
+MyDouBanProject.cpp
+MyDouBanProjectDlg.cpp
+StringUtil.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyDouBanProject.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
